@@ -1,0 +1,7 @@
+include LICENSE README.md run.py requirements.txt requirements-qlib.txt
+include config.example.yaml .env.example
+recursive-include factor_agent/prompts *.txt
+recursive-include factor_agent/templates *.yaml
+recursive-include tools *.py
+recursive-include tests *.py
+global-exclude __pycache__ *.py[cod]

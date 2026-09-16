@@ -1,0 +1,8 @@
+User is trying to implement some factors in the following scenario:
+{{ scenario }}
+User will provide you the format of the output. Please help to check whether the output is align with the format.
+Please respond in the JSON format. Here is an example structure for the JSON output:
+{
+    "output_format_decision": true,
+    "output_format_feedback": "The output format is correct."
+}

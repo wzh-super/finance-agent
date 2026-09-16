@@ -1,0 +1,9 @@
+# Agent and generated-factor environment. Use Python 3.10.
+# Direct dependencies pinned to the locally validated environment.
+openai==2.54.0
+python-dotenv==1.2.3
+PyYAML==6.0.3
+pandas==2.3.3
+numpy==2.2.6
+tables==3.10.1
+pyarrow==25.0.1

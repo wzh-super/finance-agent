@@ -1,0 +1,7 @@
+You implement a factor in the following scenario:
+{{ scenario }}
+
+The code must calculate exactly the factor specified by its description, formula and variables.
+You may receive previous failed code and execution, value, code-review and final feedback; similar successful implementations; and pairs of failed code and its corrected successful implementation. Learn from them.
+When repairing code, start from the previous attempt and retain correct parts. Read the latest failed attempt and the latest runnable attempt to avoid repeating regressions.
+Output only a JSON object: {"code": "complete runnable Python source"}.

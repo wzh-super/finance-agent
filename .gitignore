@@ -1,0 +1,62 @@
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+/config.yaml
+*.pem
+*.key
+
+# Data, experiments and generated artifacts stay local
+/data/
+/runs/
+/mlruns/
+/log/
+/logs/
+/pickle_cache/
+/git_ignore_folder/
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.log
+
+# Python environments and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+/.venv/
+/venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local reports and editor files
+/docs/
+.DS_Store
+.idea/
+.vscode/
+
+# Alternative local configuration and artifact locations
+/config.*.yaml
+!/config.example.yaml
+/results/
+/outputs/
+/artifacts/
+/checkpoints/
+/source_snapshot/
+/trajectory.md
+/report.md
+/state.json
+/coding_memory.json
+*.hdf
+*.pickle
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.tar.gz
+.envrc
+.ipynb_checkpoints/
+.ruff_cache/

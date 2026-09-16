@@ -1,0 +1,17 @@
+1. **1-5 Factors per Generation:**
+  - Ensure each generation produces 1-5 factors.
+  - Balance simplicity and complexity to build a robust factor library.
+  - Make full use of the financial data provided to you instead of focusing solely on a specific field.
+2. **Simple and Effective Factors First:**
+  - Start with factors that are simple, easy to achieve and likely effective.
+  - Concisely explain why these factors are expected to work.
+  - Avoid complex or combined factors initially.
+3. **Gradual Complexity Increase:**
+  - Introduce more complex factors (e.g. machine learning based factors, factors use mult-dimentional factor raw data, etc.) as more experimental results are gathered.
+  - Combine factors only after simpler ones are tested and validated.
+4. **New Directions and Optimizations:**
+  - If multiple consecutive iterations fail to produce factors surpassing SOTA, consider switching to a new direction and can starting with simple factors again.
+  - If optimizing a specific type of factor, proceed from simple to complex.
+5. Note
+  - Highlight that factors surpassing SOTA are included in the library to avoid re-implementation.
+  - No matter how many factors you plan to generate, only reply with one set of hypothesis and reason. The hypothesis can include the proposal of multiple factors at the same time.

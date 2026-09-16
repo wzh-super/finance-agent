@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finance-factor-agent"
+version = "0.1.0"
+description = "A readable factor research loop inspired by RD-Agent fin_factor"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dynamic = ["dependencies"]
+
+[project.scripts]
+factor-agent = "factor_agent.cli:main"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["factor_agent*"]
+
+[tool.setuptools.package-data]
+factor_agent = ["prompts/*.txt", "templates/*.yaml"]

@@ -1,0 +1,11 @@
+# Copy to config.yaml and run with --config config.yaml.
+# Replace these paths with existing datasets; data is not included.
+# Relative paths resolve against this YAML file; absolute paths also work.
+data_dir: ./data/factor_full
+debug_data_dir: ./data/factor_debug
+qlib_provider: ./data/qlib/cn_data
+
+# Replace with the absolute Python path printed from your factor-qlib environment.
+qlib_python: /absolute/path/to/envs/factor-qlib/bin/python
+
+# Chat/embedding configuration comes from .env. Other settings keep their defaults.

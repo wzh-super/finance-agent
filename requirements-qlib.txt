@@ -1,0 +1,14 @@
+# Install in a SEPARATE Python 3.10 environment; do not combine with requirements.txt.
+# The Qlib revision matches RD-Agent v0.8.0's environment recipe.
+pyqlib @ git+https://github.com/microsoft/qlib.git@3e72593b8c985f01979bebcf646658002ac43b00
+lightgbm==4.7.0
+mlflow==3.16.0
+pandas==2.3.3
+numpy==1.26.4
+pyarrow==25.0.1
+tables==3.10.1
+scipy==1.11.4
+# Keep cvxpy compatible with the validated SciPy version.
+cvxpy==1.6.5
+matplotlib==3.10.9
+ruamel.yaml==0.19.1
